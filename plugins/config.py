@@ -42,11 +42,11 @@ class Config(object):
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://arupmondal9832819925:F29l4feKy31E4Fut@cluster0.8vyek.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   
     SESSION_NAME = os.environ.get("SESSION_NAME", "LegendSources")
     
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002192714055"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002191627636"))
     
     LOGGER = logging
 
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "akmbotQ")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002191627636")
     
     OWNER_ID = int(os.environ.get("OWNER_ID", "1801203400"))
     
